@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.elements{
+    list-style-type: none;
+    display: flex;
+    font-family: "Ancizar Sans", sans-serif;
+    height: 50px;
+    background-color: black;
+    font-size: 25px;
+    align-items: center;
+}
+.elements li{
+    margin-left: 15px;
+    color: white;
+}
+.logo img{
+    width: 35px;
+    height: 34px;
+    margin: 0px 2px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 28px;
+}
+.container{
+    min-height: 80vh;
+    background-color: blanchedalmond;
+    display: flex;
+    margin: 5px auto;
+    width: 70%;
+    background-image: url("bg.jpg");
+    background-size:cover;
+    color: white;
+}
+.songList{
+    margin: 150px 0 0 150px;
+}
+.songItem{
+    height: 60px;
+    /* width: 400px; */
+    background-color: azure;
+    border: 2px solid greenyellow;
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.songItem img{
+    height: 50px;
+    width: 50px;
+    margin-right: 75px;
+}
+.songName{
+    margin-right: 60px;
+}
+.time{
+    margin-right: 5px;
+}
+.songItem i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 20vw;
+    
+}
+.songInfo img{
+    opacity: 0;
+}
+
+.bottom{
+    position:sticky;
+    height: 112px;
+    background-color: rgb(18, 9, 9);
+    color: white;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    margin-left: 10px;
+    cursor: pointer;     
+}
+#myProgressBar{
+    min-width: 60vw;
+    margin: 0px 0px 10px 0px;
+}

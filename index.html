@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="elements">
+            <li class="logo"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <div class="songItem">
+                <img src="covers\1.jpg" alt="1" class="images">
+                <span class="songName">Let Me Love You</span>
+                <span class="time">05:34</span>
+                <i class="fa-solid fa-circle-play songItemPlay" id="0"></i>
+            </div>
+            <div class="songItem">
+                <img src="covers\10.jpg" alt="1" class="images">
+                <span class="songName">Let Me Love You</span>
+                <span class="time">05:34</span>
+                <i class="fa-solid fa-circle-play songItemPlay" id="1"></i>
+            </div>
+            <div class="songItem">
+                <img src="covers\10.jpg" alt="1" class="images">
+                <span class="songName">Let Me Love You</span>
+                <span class="time">05:34</span>
+                <i class="fa-solid fa-circle-play songItemPlay" id="2"></i>
+            </div>
+            <div class="songItem">
+                <img src="covers\10.jpg" alt="1" class="images">
+                <span class="songName">Let Me Love You</span>
+                <span class="time">05:34</span>
+                <i class="fa-solid fa-circle-play songItemPlay" id="3"></i>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="progress" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid  fa-3x fa-backward" id="prevbtn"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <!-- <i class="fa-solid fa-3x fa-pause"></i> -->
+            <i class="fa-solid fa-3x fa-forward" id="nextbtn"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="30px" alt="">Let Me Love You
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
